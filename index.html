@@ -2,7 +2,76 @@ my-best-clone/
 │
 ├── index.html
 ├── style.css
-└── script.js
+└── script.js<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>健康商品比較サイト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>健康商品比較サイト</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#product1">商品1</a></li>
+                <li><a href="#product2">商品2</a></li>
+                <li><a href="#product3">商品3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="comparison-table">
+        <h2>健康商品ランキング</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>商品名</th>
+                    <th>価格</th>
+                    <th>評価</th>
+                    <th>特徴</th>
+                    <th>購入リンク</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="product1">
+                    <td>商品1</td>
+                    <td>¥3000</td>
+                    <td>★★★★☆</td>
+                    <td>サプリメント、免疫力向上</td>
+                    <td><a href="https://example.com" target="_blank">購入する</a></td>
+                </tr>
+                <tr id="product2">
+                    <td>商品2</td>
+                    <td>¥5000</td>
+                    <td>★★★★★</td>
+                    <td>ダイエットサポート、体脂肪燃焼</td>
+                    <td><a href="https://example.com" target="_blank">購入する</a></td>
+                </tr>
+                <tr id="product3">
+                    <td>商品3</td>
+                    <td>¥2000</td>
+                    <td>★★★☆☆</td>
+                    <td>腸内環境改善、便秘解消</td>
+                    <td><a href="https://example.com" target="_blank">購入する</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>© 2025 健康商品比較サイト</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
 
 <!DOCTYPE html>
 <html lang="ja">
